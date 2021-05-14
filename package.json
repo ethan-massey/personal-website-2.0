@@ -1,6 +1,9 @@
 {
   "name": "new-personal-website",
   "version": "0.0.0",
+  "engines": {
+    "node": "10.15.1"
+  },
   "server": false,
   "private": true,
   "scripts": {
