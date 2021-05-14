@@ -2,6 +2,12 @@
 
 This project was built with Turbo 360. To learn more, click here: https://www.turbo360.co
 
+## Updates coming soon:
+- create a base.html to reduce redundancies in html
+- move all styling out of html into css file(s)
+- make mobile friendly (css)
+- add favicon
+
 ## Instructions
 After cloning into repo, cd to project root directory and install dependencies:
 
