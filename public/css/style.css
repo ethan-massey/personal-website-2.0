@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Menlo";
+  color: floralwhite;
+}
+.overlay {
+  /*border-style: dashed;*/
+  margin: auto;
+  margin-top: 225px;
+  text-align: center;
+  width: 50%;
+}
+.rotunda-text {
+  padding: 5px 0px 18px 0px;
+  background: #737373;
+  border-radius: 15px;
+  opacity: 90%;
+}
+.headshot {
+  width: 100%;
+  border-radius: 50%;
+}
+.github-icon {
+  height: 50px;
+}
+.contact-card {
+  height: 60vh;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  width: 50%;
+}
+.warning-text {
+  color: crimson;
+}
