@@ -10,7 +10,8 @@
     "start": "node ./bin/www",
     "serve": "turbo devserver",
     "test": "",
-    "build": ""
+    "build": "",
+    "postinstall": "turbo postinstall"
   },
   "dependencies": {
     "dotenv": "^9.0.2",
