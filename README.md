@@ -2,6 +2,10 @@
 
 This project was built with Turbo 360. To learn more, click here: https://www.turbo360.co
 
+## Latest Updates:
+- Migrated from Flask to Express!
+- Added CAPTCHA to contact view!
+
 ## Updates coming soon:
 - create a base.html to reduce redundancies in html
 - move all styling out of html into css file(s)
