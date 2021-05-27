@@ -1,7 +1,5 @@
 # My Personal/Resume Website
 
-This project was built with Turbo 360. To learn more, click here: https://www.turbo360.co
-
 ## Latest Updates:
 - Migrated from Flask to Express!
 - Added CAPTCHA to contact view!
