@@ -4,6 +4,11 @@
   font-family: "Menlo";
   color: floralwhite;
 }
+
+.captcha {
+  background: #ffffff;
+}
+
 .overlay {
   /*border-style: dashed;*/
   margin: auto;
