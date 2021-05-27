@@ -26,37 +26,19 @@
     </nav>
     <div class="card light-blue darken-4 contact-card" style="margin: 0 auto;">
         <div class="card-content white-text">
-            <span class="card-title">Contact me!</span>
-            {{#itemMissing}}
-            <h6 class="warning-text">All form fields are required.</h6>
-            {{/itemMissing}}
-            <div class="row">
-                <form class="col s12" action="/contact/email" method="POST">
-                    <div class="row">
-                        <div class="input-field col s6">
-                            <input id="name" type="text" class="validate" name="name" value={{name}}>
-                            <label for="name">Name</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input id="address" type="email" class="validate" name="address" value={{address}}>
-                            <label for="address">Email</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <textarea id="body" class="materialize-textarea" name="body">{{body}}</textarea>
-                            <label for="body">Your Message</label>
-                        </div>
-                    </div>
-                    <div class="card-action right">
-                        <button class="btn waves-effect waves-light blue" type="submit" name="action">Send Message
-                            <i class="material-icons right">send</i>
-                        </button>
-                    </div>
-                </form>
-            </div>
+            <span class="card-title">Are you a robot?</span>
+            {{#captchaWrong}}
+            <h6 class="warning-text">Try again.</h6>
+            {{/captchaWrong}}
+            <div class="captcha">
+                {{{captchaData}}}
+            </div> 
+            <form action="/contact/captcha" method="POST">
+                <input type="text" placeholder="Type characters here" name="captchaResponse"/>
+                <button class="btn waves-effect waves-light blue" type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                </button>
+            </form>
         </div>
     </div>
 </div>
